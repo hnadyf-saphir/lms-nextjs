@@ -1,0 +1,662 @@
+{
+    "data": {
+        "id": 15,
+        "documentId": "z25prspdxig8braf0qz3fnya",
+        "titre": "les menus services",
+        "description": "test",
+        "createdAt": "2025-07-09T11:45:09.387Z",
+        "updatedAt": "2025-07-14T13:18:48.618Z",
+        "publishedAt": "2025-07-14T13:18:48.633Z",
+        "blocks": [
+            {
+                "__component": "blocks.navbar",
+                "id": 14,
+                "logo": {
+                    "id": 14,
+                    "alt": "les menus services logo",
+                    "logo": {
+                        "id": 12,
+                        "documentId": "g4ox2xmezt9f1fjv88yg0bzg",
+                        "name": "Logo.png",
+                        "alternativeText": null,
+                        "caption": null,
+                        "width": 244,
+                        "height": 244,
+                        "formats": {
+                            "thumbnail": {
+                                "name": "thumbnail_Logo.png",
+                                "hash": "thumbnail_Logo_267f30466b",
+                                "ext": ".png",
+                                "mime": "image/png",
+                                "path": null,
+                                "width": 156,
+                                "height": 156,
+                                "size": 32.71,
+                                "sizeInBytes": 32707,
+                                "url": "/uploads/thumbnail_Logo_267f30466b.png"
+                            }
+                        },
+                        "hash": "Logo_267f30466b",
+                        "ext": ".png",
+                        "mime": "image/png",
+                        "size": 28.4,
+                        "url": "/uploads/Logo_267f30466b.png",
+                        "previewUrl": null,
+                        "provider": "local",
+                        "provider_metadata": null,
+                        "createdAt": "2025-07-09T15:50:36.649Z",
+                        "updatedAt": "2025-07-11T10:58:35.833Z",
+                        "publishedAt": "2025-07-09T15:50:36.649Z"
+                    }
+                },
+                "menuItem": [
+                    {
+                        "id": 53,
+                        "href": "nos-gammes",
+                        "text": "Nos gammes"
+                    },
+                    {
+                        "id": 54,
+                        "href": "nos-menus",
+                        "text": "Nos menus"
+                    },
+                    {
+                        "id": 55,
+                        "href": "nos-services",
+                        "text": "Nos services"
+                    }
+                ],
+                "CTA": {
+                    "id": 56,
+                    "href": "#",
+                    "text": "PAR OÙ COMMENCER ?"
+                }
+            }
+        ]
+    },
+    "meta": {}
+}
+
+{
+    "data": {
+        "id": 20,
+        "documentId": "z25prspdxig8braf0qz3fnya",
+        "titre": "les menus services",
+        "description": "test",
+        "createdAt": "2025-07-09T11:45:09.387Z",
+        "updatedAt": "2025-07-15T12:49:05.579Z",
+        "publishedAt": "2025-07-15T12:49:05.624Z",
+        "blocks": [
+            {
+                "__component": "blocks.hero",
+                "id": 6,
+                "primary_Title": "Spécialiste du portage de repas à domicile pour seniors",
+                "secondary_Title": "Entreprise familiale depuis 2003, nous livrons chaque jour des repas variés.",
+                "hero_image": {
+                    "id": 5,
+                    "documentId": "tbzggv0loekus7zpq1q8nz0o",
+                    "name": "coffee-beans",
+                    "alternativeText": "An image uploaded to Strapi called coffee-beans",
+                    "caption": "coffee-beans",
+                    "width": 1494,
+                    "height": 1540,
+                    "formats": {
+                        "thumbnail": {
+                            "name": "thumbnail_coffee-beans",
+                            "hash": "thumbnail_coffee_beans_cd1e8fab8f",
+                            "ext": ".jpeg",
+                            "mime": "image/png",
+                            "path": null,
+                            "width": 151,
+                            "height": 156,
+                            "size": 40.13,
+                            "sizeInBytes": 40132,
+                            "url": "/uploads/thumbnail_coffee_beans_cd1e8fab8f.jpeg"
+                        },
+                        "small": {
+                            "name": "small_coffee-beans",
+                            "hash": "small_coffee_beans_cd1e8fab8f",
+                            "ext": ".jpeg",
+                            "mime": "image/png",
+                            "path": null,
+                            "width": 485,
+                            "height": 500,
+                            "size": 317.84,
+                            "sizeInBytes": 317841,
+                            "url": "/uploads/small_coffee_beans_cd1e8fab8f.jpeg"
+                        },
+                        "medium": {
+                            "name": "medium_coffee-beans",
+                            "hash": "medium_coffee_beans_cd1e8fab8f",
+                            "ext": ".jpeg",
+                            "mime": "image/png",
+                            "path": null,
+                            "width": 728,
+                            "height": 750,
+                            "size": 665.71,
+                            "sizeInBytes": 665714,
+                            "url": "/uploads/medium_coffee_beans_cd1e8fab8f.jpeg"
+                        },
+                        "large": {
+                            "name": "large_coffee-beans",
+                            "hash": "large_coffee_beans_cd1e8fab8f",
+                            "ext": ".jpeg",
+                            "mime": "image/png",
+                            "path": null,
+                            "width": 970,
+                            "height": 1000,
+                            "size": 1133.31,
+                            "sizeInBytes": 1133310,
+                            "url": "/uploads/large_coffee_beans_cd1e8fab8f.jpeg"
+                        }
+                    },
+                    "hash": "coffee_beans_cd1e8fab8f",
+                    "ext": ".jpeg",
+                    "mime": "image/png",
+                    "size": 458.02,
+                    "url": "/uploads/coffee_beans_cd1e8fab8f.jpeg",
+                    "previewUrl": null,
+                    "provider": "local",
+                    "provider_metadata": null,
+                    "createdAt": "2025-06-30T09:57:22.836Z",
+                    "updatedAt": "2025-07-15T12:49:01.676Z",
+                    "publishedAt": "2025-06-30T09:57:22.836Z"
+                },
+                "features": [
+                    {
+                        "id": 19,
+                        "titre": "Pour moi",
+                        "descr": "Des repas livrés chez vous, équilibrés et savoureux."
+                    },
+                    {
+                        "id": 20,
+                        "titre": "Pour un proche",
+                        "descr": "Offrez-lui des repas équilibrés et adaptés."
+                    },
+                    {
+                        "id": 21,
+                        "titre": "Prescripteur",
+                        "descr": "Des repas livrés chez vous, équilibrés et savoureux."
+                    },
+                    {
+                        "id": 22,
+                        "titre": "Devenir franchisé",
+                        "descr": "Développez votre propre activité avec nous."
+                    }
+                ]
+            }
+        ]
+    },
+    "meta": {}
+}
+
+{
+    "data": {
+        "id": 20,
+        "documentId": "z25prspdxig8braf0qz3fnya",
+        "titre": "les menus services",
+        "description": "test",
+        "createdAt": "2025-07-09T11:45:09.387Z",
+        "updatedAt": "2025-07-15T12:49:05.579Z",
+        "publishedAt": "2025-07-15T12:49:05.624Z",
+        "blocks": [
+            {
+                "__component": "blocks.hero",
+                "id": 6,
+                "primary_Title": "Spécialiste du portage de repas à domicile pour seniors",
+                "secondary_Title": "Entreprise familiale depuis 2003, nous livrons chaque jour des repas variés.",
+                "features": [
+                    {
+                        "id": 19,
+                        "titre": "Pour moi",
+                        "descr": "Des repas livrés chez vous, équilibrés et savoureux.",
+                        "icon": {
+                            "id": 13,
+                            "documentId": "oq7nsax2wi39np400v0ysv3z",
+                            "name": "for me.svg",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 75,
+                            "height": 83,
+                            "formats": null,
+                            "hash": "for_me_d6b6d1633d",
+                            "ext": ".svg",
+                            "mime": "image/svg+xml",
+                            "size": 3.36,
+                            "url": "/uploads/for_me_d6b6d1633d.svg",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2025-07-15T11:09:37.268Z",
+                            "updatedAt": "2025-07-15T11:55:41.364Z",
+                            "publishedAt": "2025-07-15T11:09:37.269Z"
+                        }
+                    },
+                    {
+                        "id": 20,
+                        "titre": "Pour un proche",
+                        "descr": "Offrez-lui des repas équilibrés et adaptés.",
+                        "icon": {
+                            "id": 15,
+                            "documentId": "kzl1ljjm2r8a5pyeaf6g2uxh",
+                            "name": "user.svg",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 83,
+                            "height": 53,
+                            "formats": null,
+                            "hash": "user_b458188411",
+                            "ext": ".svg",
+                            "mime": "image/svg+xml",
+                            "size": 1.12,
+                            "url": "/uploads/user_b458188411.svg",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2025-07-15T11:20:43.225Z",
+                            "updatedAt": "2025-07-15T11:20:43.225Z",
+                            "publishedAt": "2025-07-15T11:20:43.226Z"
+                        }
+                    },
+                    {
+                        "id": 21,
+                        "titre": "Prescripteur",
+                        "descr": "Des repas livrés chez vous, équilibrés et savoureux.",
+                        "icon": {
+                            "id": 16,
+                            "documentId": "zmx4qqxvcz243h1km3kfmrd5",
+                            "name": "prescripteur.svg",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 70,
+                            "height": 69,
+                            "formats": null,
+                            "hash": "prescripteur_9c8e95aa0a",
+                            "ext": ".svg",
+                            "mime": "image/svg+xml",
+                            "size": 4.92,
+                            "url": "/uploads/prescripteur_9c8e95aa0a.svg",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2025-07-15T11:21:25.759Z",
+                            "updatedAt": "2025-07-15T12:06:29.136Z",
+                            "publishedAt": "2025-07-15T11:21:25.759Z"
+                        }
+                    },
+                    {
+                        "id": 22,
+                        "titre": "Devenir franchisé",
+                        "descr": "Développez votre propre activité avec nous.",
+                        "icon": {
+                            "id": 14,
+                            "documentId": "nd4d9drh0thx5r8hpbh8f1oc",
+                            "name": "franchisé.svg",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 82,
+                            "height": 73,
+                            "formats": null,
+                            "hash": "franchise_025d716df7",
+                            "ext": ".svg",
+                            "mime": "image/svg+xml",
+                            "size": 7.01,
+                            "url": "/uploads/franchise_025d716df7.svg",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2025-07-15T11:20:05.292Z",
+                            "updatedAt": "2025-07-15T11:20:05.292Z",
+                            "publishedAt": "2025-07-15T11:20:05.293Z"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "meta": {}
+}
+
+{
+    "data": {
+        "id": 20,
+        "documentId": "z25prspdxig8braf0qz3fnya",
+        "titre": "les menus services",
+        "description": "test",
+        "createdAt": "2025-07-09T11:45:09.387Z",
+        "updatedAt": "2025-07-15T12:49:05.579Z",
+        "publishedAt": "2025-07-15T12:49:05.624Z",
+        "blocks": [
+            {
+                "__component": "blocks.hero",
+                "id": 6,
+                "primary_Title": "Spécialiste du portage de repas à domicile pour seniors",
+                "secondary_Title": "Entreprise familiale depuis 2003, nous livrons chaque jour des repas variés.",
+                "features": [
+                    {
+                        "id": 19,
+                        "titre": "Pour moi",
+                        "descr": "Des repas livrés chez vous, équilibrés et savoureux.",
+                        "icon": {
+                            "id": 13,
+                            "documentId": "oq7nsax2wi39np400v0ysv3z",
+                            "name": "for me.svg",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 75,
+                            "height": 83,
+                            "formats": null,
+                            "hash": "for_me_d6b6d1633d",
+                            "ext": ".svg",
+                            "mime": "image/svg+xml",
+                            "size": 3.36,
+                            "url": "/uploads/for_me_d6b6d1633d.svg",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2025-07-15T11:09:37.268Z",
+                            "updatedAt": "2025-07-15T11:55:41.364Z",
+                            "publishedAt": "2025-07-15T11:09:37.269Z"
+                        }
+                    },
+                    {
+                        "id": 20,
+                        "titre": "Pour un proche",
+                        "descr": "Offrez-lui des repas équilibrés et adaptés.",
+                        "icon": {
+                            "id": 15,
+                            "documentId": "kzl1ljjm2r8a5pyeaf6g2uxh",
+                            "name": "user.svg",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 83,
+                            "height": 53,
+                            "formats": null,
+                            "hash": "user_b458188411",
+                            "ext": ".svg",
+                            "mime": "image/svg+xml",
+                            "size": 1.12,
+                            "url": "/uploads/user_b458188411.svg",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2025-07-15T11:20:43.225Z",
+                            "updatedAt": "2025-07-15T11:20:43.225Z",
+                            "publishedAt": "2025-07-15T11:20:43.226Z"
+                        }
+                    },
+                    {
+                        "id": 21,
+                        "titre": "Prescripteur",
+                        "descr": "Des repas livrés chez vous, équilibrés et savoureux.",
+                        "icon": {
+                            "id": 16,
+                            "documentId": "zmx4qqxvcz243h1km3kfmrd5",
+                            "name": "prescripteur.svg",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 70,
+                            "height": 69,
+                            "formats": null,
+                            "hash": "prescripteur_9c8e95aa0a",
+                            "ext": ".svg",
+                            "mime": "image/svg+xml",
+                            "size": 4.92,
+                            "url": "/uploads/prescripteur_9c8e95aa0a.svg",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2025-07-15T11:21:25.759Z",
+                            "updatedAt": "2025-07-15T12:06:29.136Z",
+                            "publishedAt": "2025-07-15T11:21:25.759Z"
+                        }
+                    },
+                    {
+                        "id": 22,
+                        "titre": "Devenir franchisé",
+                        "descr": "Développez votre propre activité avec nous.",
+                        "icon": {
+                            "id": 14,
+                            "documentId": "nd4d9drh0thx5r8hpbh8f1oc",
+                            "name": "franchisé.svg",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 82,
+                            "height": 73,
+                            "formats": null,
+                            "hash": "franchise_025d716df7",
+                            "ext": ".svg",
+                            "mime": "image/svg+xml",
+                            "size": 7.01,
+                            "url": "/uploads/franchise_025d716df7.svg",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2025-07-15T11:20:05.292Z",
+                            "updatedAt": "2025-07-15T11:20:05.292Z",
+                            "publishedAt": "2025-07-15T11:20:05.293Z"
+                        }
+                    }
+                ],
+                "hero_image": {
+                    "id": 5,
+                    "documentId": "tbzggv0loekus7zpq1q8nz0o",
+                    "name": "coffee-beans",
+                    "alternativeText": "An image uploaded to Strapi called coffee-beans",
+                    "caption": "coffee-beans",
+                    "width": 1494,
+                    "height": 1540,
+                    "formats": {
+                        "thumbnail": {
+                            "name": "thumbnail_coffee-beans",
+                            "hash": "thumbnail_coffee_beans_cd1e8fab8f",
+                            "ext": ".jpeg",
+                            "mime": "image/png",
+                            "path": null,
+                            "width": 151,
+                            "height": 156,
+                            "size": 40.13,
+                            "sizeInBytes": 40132,
+                            "url": "/uploads/thumbnail_coffee_beans_cd1e8fab8f.jpeg"
+                        },
+                        "small": {
+                            "name": "small_coffee-beans",
+                            "hash": "small_coffee_beans_cd1e8fab8f",
+                            "ext": ".jpeg",
+                            "mime": "image/png",
+                            "path": null,
+                            "width": 485,
+                            "height": 500,
+                            "size": 317.84,
+                            "sizeInBytes": 317841,
+                            "url": "/uploads/small_coffee_beans_cd1e8fab8f.jpeg"
+                        },
+                        "medium": {
+                            "name": "medium_coffee-beans",
+                            "hash": "medium_coffee_beans_cd1e8fab8f",
+                            "ext": ".jpeg",
+                            "mime": "image/png",
+                            "path": null,
+                            "width": 728,
+                            "height": 750,
+                            "size": 665.71,
+                            "sizeInBytes": 665714,
+                            "url": "/uploads/medium_coffee_beans_cd1e8fab8f.jpeg"
+                        },
+                        "large": {
+                            "name": "large_coffee-beans",
+                            "hash": "large_coffee_beans_cd1e8fab8f",
+                            "ext": ".jpeg",
+                            "mime": "image/png",
+                            "path": null,
+                            "width": 970,
+                            "height": 1000,
+                            "size": 1133.31,
+                            "sizeInBytes": 1133310,
+                            "url": "/uploads/large_coffee_beans_cd1e8fab8f.jpeg"
+                        }
+                    },
+                    "hash": "coffee_beans_cd1e8fab8f",
+                    "ext": ".jpeg",
+                    "mime": "image/png",
+                    "size": 458.02,
+                    "url": "/uploads/coffee_beans_cd1e8fab8f.jpeg",
+                    "previewUrl": null,
+                    "provider": "local",
+                    "provider_metadata": null,
+                    "createdAt": "2025-06-30T09:57:22.836Z",
+                    "updatedAt": "2025-07-15T12:49:01.676Z",
+                    "publishedAt": "2025-06-30T09:57:22.836Z"
+                }
+            }
+        ]
+    },
+    "meta": {}
+}
+
+{
+    "data": {
+        "id": 22,
+        "documentId": "z25prspdxig8braf0qz3fnya",
+        "titre": "les menus services",
+        "description": "test",
+        "createdAt": "2025-07-09T11:45:09.387Z",
+        "updatedAt": "2025-07-18T09:55:45.136Z",
+        "publishedAt": "2025-07-18T09:55:45.212Z",
+        "blocks": [
+            {
+                "__component": "blocks.about",
+                "id": 3,
+                "primary_title": "Qui sommes nous",
+                "secondary_title": "La recette d’une bonne journée",
+                "descr": "Les Menus Services, c’est avant tout des repas équilibrés livrés directement chez vous, partout en France, depuis plus de 23 ans.\n\nNous vous offrons un portage de repas de qualité, avec des équipes attentionnées et toujours prêtes à vous satisfaire. Chaque livraison est l’occasion de partager notre sourire, car rien ne nous fait plus plaisir que de vous offrir des repas savoureux et adaptés à vos besoins.",
+                "image": {
+                    "id": 17,
+                    "documentId": "qvqi4cxjos2islkzxq48fbs9",
+                    "name": "imgdd.png",
+                    "alternativeText": null,
+                    "caption": null,
+                    "width": 1152,
+                    "height": 1089,
+                    "formats": {
+                        "thumbnail": {
+                            "name": "thumbnail_imgdd.png",
+                            "hash": "thumbnail_imgdd_ce92ef555d",
+                            "ext": ".png",
+                            "mime": "image/png",
+                            "path": null,
+                            "width": 165,
+                            "height": 156,
+                            "size": 73.83,
+                            "sizeInBytes": 73827,
+                            "url": "/uploads/thumbnail_imgdd_ce92ef555d.png"
+                        },
+                        "small": {
+                            "name": "small_imgdd.png",
+                            "hash": "small_imgdd_ce92ef555d",
+                            "ext": ".png",
+                            "mime": "image/png",
+                            "path": null,
+                            "width": 500,
+                            "height": 473,
+                            "size": 560.87,
+                            "sizeInBytes": 560865,
+                            "url": "/uploads/small_imgdd_ce92ef555d.png"
+                        },
+                        "medium": {
+                            "name": "medium_imgdd.png",
+                            "hash": "medium_imgdd_ce92ef555d",
+                            "ext": ".png",
+                            "mime": "image/png",
+                            "path": null,
+                            "width": 750,
+                            "height": 709,
+                            "size": 1206.43,
+                            "sizeInBytes": 1206429,
+                            "url": "/uploads/medium_imgdd_ce92ef555d.png"
+                        },
+                        "large": {
+                            "name": "large_imgdd.png",
+                            "hash": "large_imgdd_ce92ef555d",
+                            "ext": ".png",
+                            "mime": "image/png",
+                            "path": null,
+                            "width": 1000,
+                            "height": 945,
+                            "size": 2059.63,
+                            "sizeInBytes": 2059627,
+                            "url": "/uploads/large_imgdd_ce92ef555d.png"
+                        }
+                    },
+                    "hash": "imgdd_ce92ef555d",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "size": 545.33,
+                    "url": "/uploads/imgdd_ce92ef555d.png",
+                    "previewUrl": null,
+                    "provider": "local",
+                    "provider_metadata": null,
+                    "createdAt": "2025-07-18T09:55:37.400Z",
+                    "updatedAt": "2025-07-18T09:55:37.400Z",
+                    "publishedAt": "2025-07-18T09:55:37.402Z"
+                }
+            }
+        ]
+    },
+    "meta": {}
+}
+
+{
+    "data": [
+        {
+            "id": 3,
+            "documentId": "w8jamj0vt408l4oipjq0t2cs",
+            "nom": "paris",
+            "slug": "paris",
+            "adresse": "ZA de La Vavrette\n01250 Tossiat",
+            "email": "hnadyf@saphir-innovation.com",
+            "phone": "474237084",
+            "createdAt": "2025-07-18T10:51:48.973Z",
+            "updatedAt": "2025-07-18T10:53:41.726Z",
+            "publishedAt": "2025-07-18T10:53:41.742Z"
+        },
+        {
+            "id": 5,
+            "documentId": "dst0kt9czorchpr6r7ok0xh1",
+            "nom": "lyon",
+            "slug": "lyon",
+            "adresse": "ZA de La Vavrette\n01250 Tossiat",
+            "email": "test@saphir-innovation.com",
+            "phone": "3374237084",
+            "createdAt": "2025-07-18T10:55:50.517Z",
+            "updatedAt": "2025-07-18T10:55:50.517Z",
+            "publishedAt": "2025-07-18T10:55:50.533Z"
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "pageSize": 25,
+            "pageCount": 1,
+            "total": 2
+        }
+    }
+}
+
+{
+    "data": {
+        "id": 23,
+        "documentId": "z25prspdxig8braf0qz3fnya",
+        "titre": "les menus services",
+        "description": "test",
+        "createdAt": "2025-07-09T11:45:09.387Z",
+        "updatedAt": "2025-07-21T15:08:32.164Z",
+        "publishedAt": "2025-07-21T15:08:32.198Z",
+        "seo": {
+            "id": 3,
+            "metaTitle": "Les Menus Services - Livraison de repas à domicile pour seniors",
+            "metaDescription": "Les Menus Services est le spécialiste du Portage de Repas à domicile pour les personnes âgées, handicapées et/ou convalescentes"
+        }
+    },
+    "meta": {}
+}
