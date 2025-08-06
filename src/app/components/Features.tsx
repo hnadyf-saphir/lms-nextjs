@@ -8,7 +8,7 @@ export function Features({ features }: { features: any[] }) {
         <div
           key={feature.id}
           className="
-            relative group cursor-pointer rounded-xl border border-gray-200 
+            relative group cursor-pointer rounded-xl border border-primaryGreen 
             hover:border-primaryGreen hover:shadow-md transition duration-300 p-6
             active:bg-gradient-to-r active:from-primaryGreen active:to-secondaryGreen
           "

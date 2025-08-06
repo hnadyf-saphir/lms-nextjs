@@ -29,3 +29,12 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@layer utilities{
+  .btn_red{
+    @apply bg-btnColor px-8 py-3 text-white  hover:bg-primaryGreen
+  }
+  .btn_white{
+    @apply bg-white px-8 py-3 text-gray-900 border-gray-600 border-2
+  }
+}

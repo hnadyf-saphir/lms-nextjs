@@ -660,3 +660,566 @@
     },
     "meta": {}
 }
+
+{
+    "data": {
+        "id": 31,
+        "documentId": "z25prspdxig8braf0qz3fnya",
+        "titre": "les menus services",
+        "description": "test",
+        "createdAt": "2025-07-09T11:45:09.387Z",
+        "updatedAt": "2025-07-23T12:18:52.901Z",
+        "publishedAt": "2025-07-23T12:18:53.036Z",
+        "blocks": [
+            {
+                "__component": "blocks.navbar",
+                "id": 30,
+                "menu": [
+                    {
+                        "id": 119,
+                        "href": "nos-menus",
+                        "text": "Nos menus",
+                        "menuItem": [
+                            {
+                                "id": 9,
+                                "textItem": "gamme plaisir",
+                                "lienItem": "gamme-plaisir",
+                                "submenu": [
+                                    {
+                                        "id": 26,
+                                        "subText": "menu facile ",
+                                        "subLink": "menu-facile"
+                                    },
+                                    {
+                                        "id": 27,
+                                        "subText": "menu mixé",
+                                        "subLink": "menu-mixe"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 10,
+                                "textItem": "gamme gourmet",
+                                "lienItem": "gamme-gourmet",
+                                "submenu": [
+                                    {
+                                        "id": 28,
+                                        "subText": "menu classique",
+                                        "subLink": "menu-classique"
+                                    },
+                                    {
+                                        "id": 29,
+                                        "subText": "menu diabétique",
+                                        "subLink": "menu-diabetique"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": 118,
+                        "href": "nos-service",
+                        "text": "Nos services",
+                        "menuItem": []
+                    }
+                ]
+            }
+        ]
+    },
+    "meta": {}
+}
+
+{
+    "data": [
+        {
+            "id": 2,
+            "documentId": "i1a9x6tk9ye1r1nmlgl6u95x",
+            "nom": "gamme gourmet",
+            "slug": "gamme-gourmet",
+            "description": "test ",
+            "createdAt": "2025-07-24T16:59:45.061Z",
+            "updatedAt": "2025-07-24T16:59:45.061Z",
+            "publishedAt": "2025-07-24T16:59:45.083Z"
+        },
+        {
+            "id": 6,
+            "documentId": "sku0svo0us7pm4kbvxa6ivqr",
+            "nom": "Gamme plaisir ",
+            "slug": "gamme-plaisir",
+            "description": "test 2",
+            "createdAt": "2025-07-24T17:01:50.587Z",
+            "updatedAt": "2025-07-25T07:53:23.984Z",
+            "publishedAt": "2025-07-25T07:53:23.996Z"
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "pageSize": 25,
+            "pageCount": 1,
+            "total": 2
+        }
+    }
+}
+
+{
+    "data": [
+        {
+            "id": 2,
+            "documentId": "i1a9x6tk9ye1r1nmlgl6u95x",
+            "nom": "gamme gourmet",
+            "slug": "gamme-gourmet",
+            "description": "test ",
+            "createdAt": "2025-07-24T16:59:45.061Z",
+            "updatedAt": "2025-07-24T16:59:45.061Z",
+            "publishedAt": "2025-07-24T16:59:45.083Z",
+            "image": null
+        },
+        {
+            "id": 7,
+            "documentId": "sku0svo0us7pm4kbvxa6ivqr",
+            "nom": "Gamme plaisir ",
+            "slug": "gamme-plaisir",
+            "description": "test 2",
+            "createdAt": "2025-07-24T17:01:50.587Z",
+            "updatedAt": "2025-07-25T09:38:30.707Z",
+            "publishedAt": "2025-07-25T09:38:30.731Z",
+            "image": {
+                "id": 19,
+                "documentId": "zaf28vnzm5f5jdcde17g8ysb",
+                "name": "image 23.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1400,
+                "height": 933,
+                "formats": {
+                    "thumbnail": {
+                        "name": "thumbnail_image 23.png",
+                        "hash": "thumbnail_image_23_d7d7a07eb5",
+                        "ext": ".png",
+                        "mime": "image/png",
+                        "path": null,
+                        "width": 234,
+                        "height": 156,
+                        "size": 87.06,
+                        "sizeInBytes": 87062,
+                        "url": "/uploads/thumbnail_image_23_d7d7a07eb5.png"
+                    },
+                    "small": {
+                        "name": "small_image 23.png",
+                        "hash": "small_image_23_d7d7a07eb5",
+                        "ext": ".png",
+                        "mime": "image/png",
+                        "path": null,
+                        "width": 500,
+                        "height": 333,
+                        "size": 364.15,
+                        "sizeInBytes": 364150,
+                        "url": "/uploads/small_image_23_d7d7a07eb5.png"
+                    },
+                    "medium": {
+                        "name": "medium_image 23.png",
+                        "hash": "medium_image_23_d7d7a07eb5",
+                        "ext": ".png",
+                        "mime": "image/png",
+                        "path": null,
+                        "width": 750,
+                        "height": 500,
+                        "size": 783.76,
+                        "sizeInBytes": 783763,
+                        "url": "/uploads/medium_image_23_d7d7a07eb5.png"
+                    },
+                    "large": {
+                        "name": "large_image 23.png",
+                        "hash": "large_image_23_d7d7a07eb5",
+                        "ext": ".png",
+                        "mime": "image/png",
+                        "path": null,
+                        "width": 1000,
+                        "height": 666,
+                        "size": 1347.26,
+                        "sizeInBytes": 1347263,
+                        "url": "/uploads/large_image_23_d7d7a07eb5.png"
+                    }
+                },
+                "hash": "image_23_d7d7a07eb5",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 630.37,
+                "url": "/uploads/image_23_d7d7a07eb5.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2025-07-25T09:38:27.681Z",
+                "updatedAt": "2025-07-25T09:38:27.681Z",
+                "publishedAt": "2025-07-25T09:38:27.681Z"
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "pageSize": 25,
+            "pageCount": 1,
+            "total": 2
+        }
+    }
+}
+
+{
+    "id": 145,
+    "idSims": 24,
+    "uuid": "d00aa950-f402-4a16-af52-7cfb49665470",
+    "active": true,
+    "name": "FRONT DE NEUILLY",
+    "isIdelio": true,
+    "commercialName": "LEVALLOIS #",
+    "adresse": "38 Rue de Villiers 92300 Levallois-Perret",
+    "street": "38 Rue de Villiers",
+    "lmsName": "Front de Neuilly (Levallois-Perret)",
+    "postcode": "92300",
+    "city": "Levallois-Perret",
+    "email": "levallois@les-menus-services.com",
+    "status": "1",
+    "parent": null,
+    "slug": "levallois",
+    "gsToken": "ud33qgXpu6KM8UtP",
+    "gsId": 37081,
+    "gsSurveyId": "jjMVvcOr",
+    "phone": "01 74 70 47 10",
+    "showIdelioButton": false,
+    "nextHour": "13:30"
+}
+
+
+{
+    "data": {
+        "id": 11,
+        "documentId": "aoy6kakn4owzfkpsq6x2hn52",
+        "createdAt": "2025-08-04T14:52:11.795Z",
+        "updatedAt": "2025-08-04T15:26:29.281Z",
+        "publishedAt": "2025-08-04T15:26:29.308Z",
+        "Title": "Header & footer",
+        "header": {
+            "id": 11,
+            "menuSuperieur": [
+                {
+                    "id": 93,
+                    "textItem": "Qui sommes-nous ?",
+                    "lienItem": "#"
+                },
+                {
+                    "id": 94,
+                    "textItem": "Actualités",
+                    "lienItem": "#"
+                },
+                {
+                    "id": 92,
+                    "textItem": "Mon compte",
+                    "lienItem": "#"
+                }
+            ],
+            "menuPrincipal": {
+                "id": 42
+            }
+        }
+    },
+    "meta": {}
+}
+
+{
+    "data": {
+        "id": 12,
+        "documentId": "aoy6kakn4owzfkpsq6x2hn52",
+        "createdAt": "2025-08-04T14:52:11.795Z",
+        "updatedAt": "2025-08-04T16:25:20.344Z",
+        "publishedAt": "2025-08-04T16:25:20.371Z",
+        "Title": "Header & footer",
+        "header": {
+            "id": 12,
+            "menuPrincipal": {
+                "id": 43,
+                "logo": {
+                    "id": 43,
+                    "alt": "test"
+                },
+                "menu": [
+                    {
+                        "id": 145,
+                        "href": "/#",
+                        "text": "Nos menus"
+                    },
+                    {
+                        "id": 144,
+                        "href": "#",
+                        "text": "Nos services"
+                    }
+                ],
+                "cta": {
+                    "id": 13,
+                    "text": "Par où commencer ?",
+                    "link": "#"
+                }
+            }
+        }
+    },
+    "meta": {}
+}
+
+{
+    "data": {
+        "id": 12,
+        "documentId": "aoy6kakn4owzfkpsq6x2hn52",
+        "createdAt": "2025-08-04T14:52:11.795Z",
+        "updatedAt": "2025-08-04T16:25:20.344Z",
+        "publishedAt": "2025-08-04T16:25:20.371Z",
+        "Title": "Header & footer",
+        "header": {
+            "id": 12,
+            "menuPrincipal": {
+                "id": 43,
+                "menu": [
+                    {
+                        "id": 145,
+                        "href": "/#",
+                        "text": "Nos menus",
+                        "menuItem": [
+                            {
+                                "id": 105,
+                                "textItem": "gamme plaisir",
+                                "lienItem": "#",
+                                "submenu": [
+                                    {
+                                        "id": 127,
+                                        "subText": "menu facile",
+                                        "subLink": "#"
+                                    },
+                                    {
+                                        "id": 128,
+                                        "subText": "menu mixé",
+                                        "subLink": "#"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 102,
+                                "textItem": "gamme plaisir",
+                                "lienItem": "#",
+                                "submenu": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": 144,
+                        "href": "#",
+                        "text": "Nos services",
+                        "menuItem": [
+                            {
+                                "id": 103,
+                                "textItem": "Ménage",
+                                "lienItem": "#",
+                                "submenu": []
+                            },
+                            {
+                                "id": 104,
+                                "textItem": "Téléassistance",
+                                "lienItem": "#",
+                                "submenu": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "meta": {}
+}
+
+{
+    "data": {
+        "id": 12,
+        "documentId": "aoy6kakn4owzfkpsq6x2hn52",
+        "createdAt": "2025-08-04T14:52:11.795Z",
+        "updatedAt": "2025-08-04T16:25:20.344Z",
+        "publishedAt": "2025-08-04T16:25:20.371Z",
+        "Title": "Header & footer",
+        "header": {
+            "id": 12,
+            "menuSuperieur": [
+                {
+                    "id": 100,
+                    "textItem": "Qui sommes-nous ?",
+                    "lienItem": "#",
+                    "submenu": [
+                        {
+                            "id": 123,
+                            "subText": "Nos engagements",
+                            "subLink": "#"
+                        },
+                        {
+                            "id": 124,
+                            "subText": "Notre expertise nutrition",
+                            "subLink": "#"
+                        }
+                    ]
+                },
+                {
+                    "id": 101,
+                    "textItem": "Actualités",
+                    "lienItem": "#",
+                    "submenu": [
+                        {
+                            "id": 125,
+                            "subText": "Blog",
+                            "subLink": "#"
+                        },
+                        {
+                            "id": 126,
+                            "subText": "Podcasts",
+                            "subLink": "#"
+                        }
+                    ]
+                },
+                {
+                    "id": 99,
+                    "textItem": "Mon compte",
+                    "lienItem": "#",
+                    "submenu": []
+                }
+            ]
+        }
+    },
+    "meta": {}
+}
+
+{
+    "data": {
+        "id": 17,
+        "documentId": "aoy6kakn4owzfkpsq6x2hn52",
+        "createdAt": "2025-08-04T14:52:11.795Z",
+        "updatedAt": "2025-08-05T14:12:58.637Z",
+        "publishedAt": "2025-08-05T14:12:58.703Z",
+        "Title": "Header & footer",
+        "Footer": {
+            "id": 6,
+            "menuFooter": [
+                {
+                    "id": 153,
+                    "textItem": "Services",
+                    "lienItem": "#",
+                    "submenu": [
+                        {
+                            "id": 195,
+                            "subText": "Espace client",
+                            "subLink": "#"
+                        },
+                        {
+                            "id": 196,
+                            "subText": "Le portage de repas",
+                            "subLink": "#"
+                        },
+                        {
+                            "id": 197,
+                            "subText": "Les gammes complémentaires",
+                            "subLink": "#"
+                        }
+                    ]
+                },
+                {
+                    "id": 154,
+                    "textItem": "Découvrir",
+                    "lienItem": "#",
+                    "submenu": [
+                        {
+                            "id": 198,
+                            "subText": "Qui sommes-nous ",
+                            "subLink": "#"
+                        },
+                        {
+                            "id": 199,
+                            "subText": "Trouver une agence",
+                            "subLink": "#"
+                        },
+                        {
+                            "id": 200,
+                            "subText": "Actualités",
+                            "subLink": "#"
+                        }
+                    ]
+                },
+                {
+                    "id": 155,
+                    "textItem": "Aide",
+                    "lienItem": "#",
+                    "submenu": [
+                        {
+                            "id": 201,
+                            "subText": "FAQ",
+                            "subLink": "#"
+                        },
+                        {
+                            "id": 202,
+                            "subText": "Nous contacter",
+                            "subLink": "#"
+                        },
+                        {
+                            "id": 203,
+                            "subText": "Mentions légales",
+                            "subLink": "#"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "meta": {}
+}
+
+{
+    "data": {
+        "id": 17,
+        "documentId": "aoy6kakn4owzfkpsq6x2hn52",
+        "createdAt": "2025-08-04T14:52:11.795Z",
+        "updatedAt": "2025-08-05T14:12:58.637Z",
+        "publishedAt": "2025-08-05T14:12:58.703Z",
+        "Title": "Header & footer",
+        "Footer": {
+            "id": 6,
+            "LogoFooter": {
+                "id": 12,
+                "documentId": "g4ox2xmezt9f1fjv88yg0bzg",
+                "name": "Logo.png",
+                "alternativeText": "An image uploaded to Strapi called LMS",
+                "caption": null,
+                "width": 244,
+                "height": 244,
+                "formats": {
+                    "thumbnail": {
+                        "name": "thumbnail_Logo.png",
+                        "hash": "thumbnail_Logo_267f30466b",
+                        "ext": ".png",
+                        "mime": "image/png",
+                        "path": null,
+                        "width": 156,
+                        "height": 156,
+                        "size": 32.71,
+                        "sizeInBytes": 32707,
+                        "url": "/uploads/thumbnail_Logo_267f30466b.png"
+                    }
+                },
+                "hash": "Logo_267f30466b",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 28.4,
+                "url": "/uploads/Logo_267f30466b.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2025-07-09T15:50:36.649Z",
+                "updatedAt": "2025-08-05T14:12:55.628Z",
+                "publishedAt": "2025-07-09T15:50:36.649Z"
+            }
+        }
+    },
+    "meta": {}
+}

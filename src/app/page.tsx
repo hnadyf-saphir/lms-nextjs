@@ -4,6 +4,7 @@ import About from "./components/About";
 import Hero from "./components/Hero";
 
 
+
 export async function fetchSeoHome() {
   const res = await fetch("http://localhost:1337/api/home-page?populate=seo", {
     cache: "no-store",
@@ -13,7 +14,7 @@ export async function fetchSeoHome() {
 
   return {
     title: seo?.metaTitle || "Page d'accueil",
-    description: seo?.metaDescription || "",
+    description: seo?.metaDescription || "test",
   };
 }
 
@@ -30,6 +31,7 @@ export default async function Home() {
     <div>
       <Hero />
       <About />
+      
     </div>
   );
 }

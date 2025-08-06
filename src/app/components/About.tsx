@@ -4,19 +4,19 @@ import React from "react";
 
 const featureItems = [
   {
-    icon: "/icons/menu.svg",
+    icon: "/icons/menus.svg",
     title: "Menus élaborés par une diététicienne",
   },
   {
-    icon: "/icons/delivery.svg",
+    icon: "/icons/livraison.svg",
     title: "Livraison rapide chez vous",
   },
   {
-    icon: "/icons/order.svg",
+    icon: "/icons/commande.svg",
     title: "Commande simple en ligne",
   },
   {
-    icon: "/icons/taxes.svg",
+    icon: "/icons/aides.svg",
     title: "Aides fiscales possibles",
   },
 ];
@@ -79,10 +79,10 @@ export default async function About() {
           {featureItems.map((item, index) => (
             <div
               key={index}
-              className="flex flex-col items-center text-center p-4 bg-white rounded-xl shadow-sm"
+              className="flex flex-col items-center text-center p-8 bg-white rounded-xl shadow-sm"
             >
-              <img src={item.icon} alt={item.title} className="w-10 h-10 mb-3" />
-              <p className="text-sm font-medium text-gray-700">{item.title}</p>
+              <img src={item.icon} alt={item.title} className="w-20 h-20 mb-3" />
+              <p className="text-lg font-medium text-gray-700">{item.title}</p>
             </div>
           ))}
         </div>

@@ -29,7 +29,7 @@ async function fetchHero() {
 export default async function Hero() {
   const data = await fetchHero();
 
-  // ✅ Préparation des features pour éviter les erreurs si icon est null
+  // Préparation des features pour éviter les erreurs si icon est null
   const features = data.features.map((feature: any) => ({
     id: feature.id,
     title: feature.titre,

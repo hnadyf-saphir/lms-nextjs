@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import {Footer, Header} from "./components"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -21,59 +20,92 @@ export const metadata: Metadata = {
 };
 
 
-async function fetchNavBar() {
-  const path = "/api/home-page";
+
+
+async function fetchHeader() {
+  const path = "/api/global-hf";
   const BASE_URL = "http://localhost:1337";
   const url = new URL(path, BASE_URL);
 
   url.searchParams.set(
-    "populate[blocks][on][blocks.navbar][populate][logo][populate]",
-    "*"
-  );
-  url.searchParams.set(
-    "populate[blocks][on][blocks.navbar][populate][menuItem][populate]",
-    "*"
-  );
-  url.searchParams.set(
-    "populate[blocks][on][blocks.navbar][populate][CTA][populate]",
-    "*"
+    "populate[header][populate][menuSuperieur][populate][submenu]", "*"
   );
 
-  //envoi une requete GET à strapi
+
+  url.searchParams.set(
+    "populate[header][populate][menuPrincipal][populate][menu][populate][menuItem][populate][submenu]", "*"
+  );
+
+  url.searchParams.set(
+    "populate[header][populate][menuPrincipal][populate][logo][populate]", "*"
+  );
+
+  url.searchParams.set(
+    "populate[header][populate][menuPrincipal][populate][cta][populate]", "*"
+  );
+
   const response = await fetch(url.href);
-  //la reponse htpp transformé en objet json
   const data = await response.json();
 
-  //tableau composants dynamiques
-  const navBarBlock = data.data.blocks.find(
-    (block) => block.__component === "blocks.navbar"
-  );
-  return navBarBlock;
+  const header = data.data.header;
+  return header;
 
 }
+
+async function fetchFooter() {
+  const path = "/api/global-hf";
+  const BASE_URL = "http://localhost:1337";
+  const url = new URL(path, BASE_URL);
+
+  url.searchParams.set(
+    "populate[Footer][populate][menuFooter][populate][submenu]", "*"
+  );
+
+  url.searchParams.set(
+    "populate[Footer][populate]", "LogoFooter"
+  );
+
+  const result = await fetch(url.href);
+  const data = await result.json();
+
+  const footer = data.data.Footer;
+  console.log(footer);
+  return footer;
+  
+}
+
 export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
 
-  const navbarData = await fetchNavBar();
-  //console.log(navbarData.logo.url)
+  
+  //console.log(navbarData.menuItem)
 
+  const headerData = await fetchHeader();
+  const footerData = await fetchFooter();
+  console.log(footerData);
   return (
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Navbar
-          logo={navbarData.logo}
-          menuItem={navbarData.menuItem}
-          CTA={navbarData.CTA}
+        <Header 
+          menuSuperieur= {headerData.menuSuperieur}
+          logo={headerData.menuPrincipal.logo}
+          menu={headerData.menuPrincipal.menu}
+          cta={headerData.menuPrincipal.cta}
         />
-        
+
         <main>
           {children}
         </main>
+
+        <Footer
+          menuFooter ={footerData.menuFooter}
+          logoFooter = {footerData.LogoFooter}
+        />
 
       </body>
     </html>

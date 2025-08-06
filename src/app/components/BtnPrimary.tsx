@@ -1,9 +1,16 @@
 import React from 'react'
 
-const BtnPrimary = () => {
+type ButtonProps = {
+    type: 'button' | 'submit';
+    title: string;
+    variant: 'btn_red' | 'btn_white';
+
+}
+
+const BtnPrimary = ({type, title, variant} : ButtonProps) => {
     return (
-        <button className="border-2 border-[#B0B0B0] px-4 py-2 rounded">
-            TROUVER VOTRE AGENCE
+        <button className={`rounded-lg  ${variant}`} type={type}>
+           <label className='font-medium text-lg uppercase '>{title}</label> 
         </button>
     )
 }
