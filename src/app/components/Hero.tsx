@@ -42,18 +42,14 @@ export default async function Hero() {
   return (
     <section className="relative">
       <div className="container mx-auto px-6 py-12 flex flex-col lg:flex-row items-center justify-between">
-        {/* Texte à gauche */}
         <div className="max-w-xl">
           <h1 className="text-4xl md:text-5xl font-bold text-primaryGreen mb-4">
             {data.primary_Title}
           </h1>
           <p className="text-xl text-gray-700 mb-8">{data.secondary_Title}</p>
-
-          {/* ✅ Passage des features dynamiques au composant */}
           <Features features={features} />
         </div>
 
-        {/* Image à droite */}
         <div className="relative mt-10 lg:mt-0">
           <img
             src={`http://localhost:1337${data.hero_image.url}`}
@@ -62,6 +58,7 @@ export default async function Hero() {
             height={600}
             
           />
+          
         </div>
       </div>
     </section>

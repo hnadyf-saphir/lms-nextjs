@@ -2,7 +2,8 @@
 import { Metadata } from "next";
 import About from "./components/About";
 import Hero from "./components/Hero";
-
+import { fetchOrder } from "./lib/fetchOrder";
+import BlockErreur from "./components/BlockErreur";
 
 
 export async function fetchSeoHome() {
@@ -14,7 +15,7 @@ export async function fetchSeoHome() {
 
   return {
     title: seo?.metaTitle || "Page d'accueil",
-    description: seo?.metaDescription || "test",
+    description: seo?.metaDescription || "",
   };
 }
 
@@ -25,13 +26,26 @@ export const metadata: Metadata = {
   description: metaSeo.description,
 };
 
+function renderBlock(block: any) {
+  switch (block.__component) {
+    case "blocks.hero":
+      return <Hero key={block.id} />;
+    case "blocks.about":
+      return <About key={block.id} /> ;
+    default:
+      return <BlockErreur key="test" />;
+  }
+}
 export default async function Home() {
-
+  const blocks = await fetchOrder();
   return (
     <div>
+      {/*
       <Hero />
       <About />
-      
+      */}
+      {blocks.map(renderBlock)}
+
     </div>
   );
 }

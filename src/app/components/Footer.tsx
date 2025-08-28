@@ -16,7 +16,7 @@ export const Footer = ({ menuFooter, logoFooter }) => {
                             <h4 className="text-[#7EC321] font-bold mb-3 text-lg">{item.textItem}</h4>
                             {
                                 item.submenu.map((submenu, i) => (
-                                    <ul className="space-y-2 text-sm pb-3">
+                                    <ul className="space-y-2 text-sm pb-3" key={i}>
                                         <Link href={submenu.subLink}>
                                             <li>{submenu.subText}</li>
 

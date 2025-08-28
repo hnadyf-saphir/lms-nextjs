@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 import BtnPrimary from './BtnPrimary'
+//import {Button } from 'lms-design-system'
 
 export const Header = ({ menu, logo, cta , menuSuperieur}) => {
   return (
@@ -91,11 +92,7 @@ export const Header = ({ menu, logo, cta , menuSuperieur}) => {
         </div>
 
         <div className="flex space-x-3">
-          <BtnPrimary
-            type="button"
-            title="Trouver une agence"
-            variant="btn_white"
-          />
+        
           <BtnPrimary
             type="button"
             title={cta.text}
