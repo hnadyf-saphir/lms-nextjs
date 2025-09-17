@@ -1,16 +1,24 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Playfair_Display, Barlow, Roboto } from "next/font/google";
 import "./globals.css";
-import {Footer, Header} from "./components"
+import { Footer, Header } from "./components"
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+const playfair = Playfair_Display({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  variable: '--font-playfair',
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const barlow = Barlow({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-barlow',
+});
+
+const roboto = Roboto({
+  subsets: ['latin'],
+  weight: ['400', '500', '700'],
+  variable: '--font-roboto',
 });
 
 
@@ -18,7 +26,6 @@ export const metadata: Metadata = {
   title: "Les menus services",
   description: "create new website",
 };
-
 
 
 
@@ -71,7 +78,7 @@ async function fetchFooter() {
   const footer = data.data.Footer;
   console.log(footer);
   return footer;
-  
+
 }
 
 export default async function RootLayout({
@@ -80,31 +87,32 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
 
-  
-  //console.log(navbarData.menuItem)
 
   const headerData = await fetchHeader();
   const footerData = await fetchFooter();
-  console.log(footerData);
+
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${playfair.variable} ${barlow.variable} ${roboto.variable}`}
       >
-        <Header 
-          menuSuperieur= {headerData.menuSuperieur}
-          logo={headerData.menuPrincipal.logo}
-          menu={headerData.menuPrincipal.menu}
-          cta={headerData.menuPrincipal.cta}
-        />
+
+        <div>
+          <Header
+            menuSuperieur={headerData.menuSuperieur}
+            logo={headerData.menuPrincipal.logo}
+            menu={headerData.menuPrincipal.menu}
+            cta={headerData.menuPrincipal.cta}
+          />
+        </div>
 
         <main>
           {children}
         </main>
 
         <Footer
-          menuFooter ={footerData.menuFooter}
-          logoFooter = {footerData.LogoFooter}
+          menuFooter={footerData.menuFooter}
+          logoFooter={footerData.LogoFooter}
         />
 
       </body>

@@ -9,34 +9,27 @@ export const Footer = ({ menuFooter, logoFooter }) => {
                 <div>
                     <img src={`http://localhost:1337${logoFooter.url}`} alt={logoFooter.alternativeText} className="w-28 mb-4" />
                 </div>
-
                 {
                     menuFooter.map((item) => (
                         <div>
-                            <h4 className="text-[#7EC321] font-bold mb-3 text-lg">{item.textItem}</h4>
+                            <h4 className="text-[#7EC321] font-bold mb-3 text-2xl">{item.textItem}</h4>
                             {
                                 item.submenu.map((submenu, i) => (
-                                    <ul className="space-y-2 text-sm pb-3" key={i}>
+                                    <ul className="space-y-2 text-xl pb-3 font-medium" key={i}>
                                         <Link href={submenu.subLink}>
                                             <li>{submenu.subText}</li>
-
                                         </Link>
-
                                     </ul>
                                 ))
                             }
-
                         </div>
                     ))
                 }
-
-
             </div>
 
             {/* Bas de page */}
             <div className="mt-10 flex flex-col md:flex-row items-center justify-between border-t border-gray-700 pt-6 text-sm">
                 <p>© 2024 LES MENUS SERVICES. Tous droits réservés.</p>
-
                 <div className="flex gap-4 mt-4 md:mt-0 text-[#7EC321] text-xl">
                     <FaFacebookF />
                     <FaInstagram />

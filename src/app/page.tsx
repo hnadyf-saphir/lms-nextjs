@@ -1,51 +1,32 @@
 
 import { Metadata } from "next";
-import About from "./components/About";
-import Hero from "./components/Hero";
+import BlockManager from "./components/blocks/BlockManager";
 import { fetchOrder } from "./lib/fetchOrder";
-import BlockErreur from "./components/BlockErreur";
+import "./globals.css";
 
-
-export async function fetchSeoHome() {
-  const res = await fetch("http://localhost:1337/api/home-page?populate=seo", {
-    cache: "no-store",
-  });
+// Fetch du SEO depuis Strapi
+async function fetchSeoHome() {
+  const res = await fetch("http://localhost:1337/api/home-page?populate=seo");
   const data = await res.json();
   const seo = data?.data?.seo;
 
   return {
-    title: seo?.metaTitle || "Page d'accueil",
-    description: seo?.metaDescription || "",
+    title: seo?.seoTitle || "Page d'accueil",
+    description: seo?.seoDescription || " ",
   };
 }
 
-const metaSeo = await fetchSeoHome();
+//Next.js Metadata (App Router)
+export const metadata: Metadata = await fetchSeoHome();
 
-export const metadata: Metadata = {
-  title: metaSeo.title,
-  description: metaSeo.description,
-};
+//Page Home
+export default async function HomePage() {
+//fetchOrder universel → récupère les blocks
+  const blocks = await fetchOrder<any[]>("home-page", { pick: "blocks" });
 
-function renderBlock(block: any) {
-  switch (block.__component) {
-    case "blocks.hero":
-      return <Hero key={block.id} />;
-    case "blocks.about":
-      return <About key={block.id} /> ;
-    default:
-      return <BlockErreur key="test" />;
-  }
-}
-export default async function Home() {
-  const blocks = await fetchOrder();
   return (
-    <div>
-      {/*
-      <Hero />
-      <About />
-      */}
-      {blocks.map(renderBlock)}
-
+    <div >
+      <BlockManager blocks={blocks} />
     </div>
   );
 }

@@ -3,7 +3,7 @@ import React from 'react'
 
 export function Features({ features }: { features: any[] }) {
   return (
-    <section className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
+    <section className="grid grid-cols-2 md:grid-cols-2 gap-6 mt-10">
       {features.map((feature) => (
         <div
           key={feature.id}
@@ -25,7 +25,7 @@ export function Features({ features }: { features: any[] }) {
             </div>
             <h3
               className="
-                text-lg font-semibold text-primaryGreen
+                font-barlow text-2xl font-bold text-primaryGreen
                 group-active:text-white
               "
             >
@@ -33,7 +33,7 @@ export function Features({ features }: { features: any[] }) {
             </h3>
           </div>
           <p
-            className="
+            className=" font-roboto
               mt-3 text-gray-700 
               group-active:text-white
             "

@@ -5,7 +5,7 @@ import BtnPrimary from './BtnPrimary'
 export default function Navbar({ logo, menu, cta }) {
 
     return (
-        <nav className="border-b border-gray-200 bg-white">
+        <nav className="border-b border-gray-200 bg-white w-full">
 
             <div className="bg-secondaryGreen text-xl text-textColor py-3">
                 <div className="max-w-[1200px] mx-auto flex justify-end space-x-5 pr-5">
